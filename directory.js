@@ -1,6 +1,6 @@
 var fs = require("fs");
 
-fs.makedir("lib", function (err) {
+fs.mkdir("lib", function (err) {
   if (err) {
     console.log(err);
   } else {
